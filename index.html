@@ -65,6 +65,23 @@
       color: #fff;
       background-color: #35495e
     }
+
+    @media (max-width: 375px) {
+      body {
+        padding-top: 20px;
+      }
+
+      .landing {
+        height: 100%;
+      }
+
+      html, body {
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+    }
   </style>
   <style>
     .landing {
@@ -80,7 +97,7 @@
       height: 100vh;
       -webkit-box-pack: center;
       -ms-flex-pack: center;
-      justify-content: center
+      justify-content: center;
     }
 
     .landing-container {
