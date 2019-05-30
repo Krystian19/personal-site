@@ -1,185 +1,194 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <title>personal-site</title>
-  <link href="/favicon.ico" rel="icon" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <style>
-    html, body {
-      background: #000;
-    }
-    html {
-      color: #fff;
-      font-family: Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
-      font-size: 16px;
-      word-spacing: 1px;
-      -ms-text-size-adjust: 100%;
-      -webkit-text-size-adjust: 100%;
-      -moz-osx-font-smoothing: grayscale;
-      -webkit-font-smoothing: antialiased
-    }
-
-    *,
-    :after,
-    :before,
-    html {
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box
-    }
-
-    *,
-    :after,
-    :before {
-      margin: 0
-    }
-
-    .button--green {
-      display: inline-block;
-      border-radius: 4px;
-      border: 1px solid #3b8070;
-      color: #3b8070;
-      text-decoration: none;
-      padding: 10px 30px
-    }
-
-    .button--green:hover {
-      color: #fff;
-      background-color: #3b8070
-    }
-
-    .button--grey {
-      display: inline-block;
-      border-radius: 4px;
-      border: 1px solid #35495e;
-      color: #35495e;
-      text-decoration: none;
-      padding: 10px 30px;
-      margin-left: 15px
-    }
-
-    .button--grey:hover {
-      color: #fff;
-      background-color: #35495e
-    }
-
-    @media (max-width: 375px) {
-      body {
-        padding-top: 20px;
-      }
-
-      .landing {
-        height: 100%;
-      }
-
-      html, body {
-        height: 100%;
-        width: 100%;
-        overflow-x: hidden;
-        overflow-y: auto;
-      }
-    }
-  </style>
-  <style>
-    .landing {
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      background-image: url(/personal-site/img/background.png);
-      background-size: cover;
-      background-position: 50% bottom;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      height: 100vh;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-    }
-
-    .landing-container {
-      padding: 2em;
-      text-align: center;
-      position: relative;
-      z-index: 2
-    }
-
-    .title {
-      font-size: 2.75em;
-      font-weight: 600
-    }
-
-    .sub-title {
-      font-size: 1.75em;
-      font-weight: 100
-    }
-
-    .description {
-      font-size: 1.25em;
-      margin: 1.5em 0
-    }
-
-    .overlay {
-      background-color: #000;
-      opacity: .85;
-      position: absolute;
-      top: 0;
-      right: 0;
-      left: 0;
-      bottom: 0
-    }
-
-    .icon-link {
-      color: #fff;
-      text-decoration: none;
-      font-size: 2.2em;
-      margin: .5em
-    }
-
-    .icon-link:hover {
-      text-decoration: underline
-    }
-
-    @media (min-width:600px) {
-      .title {
-        font-size: 3.75em;
-        font-weight: 600
-      }
-
-      .sub-title {
-        font-size: 2.5em;
-        font-weight: 100
-      }
-
-      .description {
-        font-size: 1.5em;
-        margin: 1.5em 0
-      }
-    }
-  </style>
-</head>
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Krystian19</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+<link rel="icon" href="https://avatars1.githubusercontent.com/u/11340531?v=4" type="image/png"></head>
 
 <body>
-  <div>
-    <div>
-      <div>
-        <section class="landing">
-          <div class="overlay"></div>
-          <div class="landing-container">
-            <h1 class="title">Jan Guzmán</h1>
-            <h2 class="sub-title">Javascript Developer</h2>
-            <p class="description">
-                I am a Developer with experience in Node.js and JavaScript with DevOps Skills, currently working with open-source apps.
-                I'm currently using in my projects Node.js, React.js, Vue.js, GraphQL(Apollo) and Docker.
-              <div class="icons">
-                <a class="fa fa-github icon-link" href="https://github.com/Krystian19" aria-hidden="true" target="_blank"></a>
-                <a class="fa fa-linkedin icon-link" href="https://www.linkedin.com/in/jan-guzman-3170b8148/" aria-hidden="true" target="_blank"></a>
-              </div>
-          </div>
-        </section>
-      </div>
+    <div id="loading">
+        <div id="spinner"></div>
     </div>
-  </div>
+    <div id="profile">
+        <div id="profile_img" style="background: url(https://avatars1.githubusercontent.com/u/11340531?v=4) center;"></div>
+        <div id="username"><span style="display:block;">Jan Guzman</span><a href="https://github.com/Krystian19">@Krystian19</a></div>
+        <div id="userbio" style="display: block;">Web developer,  cryptocurrency enthusiast and aspiring Machine Learning Engineer.</div>
+        <div id="about">
+                <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
+                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="https://krystian19.github.io/personal-site/">https://krystian19.github.io/personal-site/</a></span>
+                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Santo Domingo, DR</span>
+                <span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span></div>
+    </div>
+    <div id="display">
+        <div id="work">
+            <h1>Work.</h1>
+            <div class="projects" id="work_section">
+                        <a href="https://github.com/Krystian19/cactus-app" target="_blank">
+                        <section>
+                            <div class="section_title">cactus-app</div>
+                            <div class="about_section">
+                            <span style="display:block;">Cactus app is an open source service to stream your favorite anime.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Krystian19/empleado.io" target="_blank">
+                        <section>
+                            <div class="section_title">empleado.io</div>
+                            <div class="about_section">
+                            <span style="display:block;">Job searching app ...</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Krystian19/ReactDockerBoilerplate" target="_blank">
+                        <section>
+                            <div class="section_title">ReactDockerBoilerplate</div>
+                            <div class="about_section">
+                            <span style="display:block;">Boilerplate for a React app running with a express.js server inside a docker container</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Krystian19/VuejsDockerBoilerplate" target="_blank">
+                        <section>
+                            <div class="section_title">VuejsDockerBoilerplate</div>
+                            <div class="about_section">
+                            <span style="display:block;">Boilerplate for a Vuejs app running with a express.js server inside a docker container</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Krystian19/fake-image-cdn" target="_blank">
+                        <section>
+                            <div class="section_title">fake-image-cdn</div>
+                            <div class="about_section">
+                            <span style="display:block;">Use this script as a service to mimic a real content delivery network for image files.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Krystian19/fake-video-cdn" target="_blank">
+                        <section>
+                            <div class="section_title">fake-video-cdn</div>
+                            <div class="about_section">
+                            <span style="display:block;">Use this script as a service to mimic a real content delivery network for video files.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a></div>
+        </div>
+        <div id="forks" style="display:none;">
+            <h1>Forks.</h1>
+            <div class="projects" id="forks_section"></div>
+        </div>
+        <div id="blog_section">
+            <h1>Blog.</h1>
+            <div id="blogs"></div>
+        </div>
+        <div id="footer">
+            <a href="https://github.com/Krystian19" target="_blank">made on earth by a human</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        setTimeout(function () {
+            document.getElementById("loading").classList.add("animated");
+            document.getElementById("loading").classList.add("fadeOut");
+            setTimeout(function () {
+                document.getElementById("loading").classList.remove("animated");
+                document.getElementById("loading").classList.remove("fadeOut");
+                document.getElementById("loading").style.display = "none";
+            }, 800);
+        }, 1500);
+        $.getJSON("blog.json", function (blog) {
+            blog = blog || [];
+            if (blog.length == 0) {
+                return document.getElementById("blog_section").style.display = "none";
+            }
+            for (var i = 0; i < blog.length; i++) {
+                $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+            }
+        }).fail(function () {
+            return document.getElementById("blog_section").style.display = "none";
+        });
+    </script>
+
+    <script type="text/javascript">
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js');
+            });
+        }
+    </script>
+
+    <script>
+        const magicProjectsGrid = new MagicGrid({
+          container: '#work_section',
+          animate: false,
+          gutter: 30, // default gutter size
+          static: true,
+          useMin: false,
+          maxColumns: 2,
+          useTransform: true
+        });
+
+        const magicForksGrid = new MagicGrid({
+          container: '#forks_section',
+          animate: false,
+          gutter: 30, // default gutter size
+          static: true,
+          useMin: false,
+          maxColumns: 2,
+          useTransform: true
+        })
+
+        $('document').ready(() => {
+          magicProjectsGrid.listen();
+          magicForksGrid.listen();
+        });
+    </script>
+
+
+</body></html>
